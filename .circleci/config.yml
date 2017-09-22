@@ -5,6 +5,5 @@ jobs:
     docker:
       - image: mritd/shadowsocks:latest
     steps:
-      - checkout
-      - run: ./entrypoint.sh
+      - run: /entrypoint.sh
       
