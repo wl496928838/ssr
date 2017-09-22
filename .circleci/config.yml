@@ -4,6 +4,4 @@ jobs:
   build:
     docker:
       - image: mritd/shadowsocks:latest
-    steps:
-      - run: -dt --name ss -p 6443:6443 mritd/shadowsocks -s "-s 0.0.0.0 -p 6443 -m aes-256-cfb -k test123 --fast-open"
-      
+
