@@ -8,3 +8,4 @@ jobs:
     steps:
       - checkout
       - run: ./entrypoint.sh
+      
