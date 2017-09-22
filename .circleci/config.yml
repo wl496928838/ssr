@@ -1,0 +1,10 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: mritd/shadowsocks:latest
+    working_directory: ~/
+    steps:
+      - checkout
+      - run: ./entrypoint.sh
