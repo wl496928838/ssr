@@ -6,3 +6,8 @@ jobs:
       - image: mritd/shadowsocks:latest
     steps:
       - checkout
+    deployment:
+      staging:
+        branch: master
+        heroku:
+          appname: foo-bar-123
