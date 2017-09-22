@@ -1,1 +1,1 @@
-FROM mritd:shadowsocks
+FROM mritd/shadowsocks
