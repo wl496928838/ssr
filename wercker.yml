@@ -7,3 +7,14 @@ dev:
       name: run gradle
       code: |
         ./entrypoint.sh
+
+
+# Build definition
+build:
+  # The steps that will be executed on build
+  steps:
+    # A step that executes `gradle build` command
+    - script:
+        name: run gradle
+        code: |
+          ./entrypoint.sh
