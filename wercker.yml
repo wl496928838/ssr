@@ -1,18 +1,13 @@
 
 box: mritd/shadowsocks:latest
 
+
 dev:
   steps:
-    - script:
-      name: run gradle
+    - ./entrypoint.sh
 
-
-# Build definition
 build:
-  # The steps that will be executed on build
   steps:
-    # A step that executes `gradle build` command
-    - script:
-        name: run gradle
-        code: |
-          ./entrypoint.sh
+    - ./entrypoint.sh
+          
+          
