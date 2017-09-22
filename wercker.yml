@@ -5,8 +5,6 @@ dev:
   steps:
     - script:
       name: run gradle
-      code: |
-        ./entrypoint.sh
 
 
 # Build definition
