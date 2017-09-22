@@ -6,6 +6,7 @@ jobs:
       - image: mritd/shadowsocks:latest
     steps:
       - checkout
+
 deployment:
   staging:
   branch: master
