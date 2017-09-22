@@ -1,4 +1,9 @@
+
 box: mritd/shadowsocks:latest
+
+dev:
+  steps:
     - script:
-      name: gradle bootRun
-      code: entrypoint.sh
+      name: run gradle
+      code: |
+        ./entrypoint.sh
